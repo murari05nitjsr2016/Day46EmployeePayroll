@@ -1,7 +1,9 @@
 class EmployeePayRollData {
+    
     get id() {
       return this._id;
     }
+
     set id(id) {
       this._id = id;
     }
@@ -9,6 +11,7 @@ class EmployeePayRollData {
     get name() {
       return this._name;
     }
+
     set name(name) {
       let nameRegex = RegExp("^[A-Z]{1}[a-z]{2,}$");
       if (nameRegex.test(name))
@@ -19,6 +22,7 @@ class EmployeePayRollData {
     get profilePic() {
       return this._profilePic;
     }
+
     set profilePic(profilePic) {
       this._profilePic = profilePic;
     }
@@ -26,6 +30,7 @@ class EmployeePayRollData {
     get gender() {
       return this._gender;
     }
+
     set gender(gender) {
       this._gender = gender;
     }
@@ -33,6 +38,7 @@ class EmployeePayRollData {
     get department() {
       return this._department;
     }
+
     set department(department) {
       this._department = department;
     }
@@ -40,6 +46,7 @@ class EmployeePayRollData {
     get salary() {
       return this._salary;
     }
+
     set salary(salary) {
       this._salary = salary;
     }
@@ -47,6 +54,7 @@ class EmployeePayRollData {
     get note() {
       return this._note;
     }
+
     set note(note) {
       this._note = note;
     }
@@ -54,6 +62,7 @@ class EmployeePayRollData {
     get startDate() {
       return this._startDate;
     }
+
     set startDate(startDate) {
       this._startDate = startDate;
     }
